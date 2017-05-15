@@ -1,0 +1,12 @@
+<% include header %>
+
+<section class="instagram">
+<h1>HVRMNS</h1>
+  <% afbeeldingen.forEach(function(afbeelding){ %>
+      <div class="container">
+        <a href="https://www.instagram.com/p/<%- afbeelding.id %>"><img src="<%- afbeelding.media %>" alt="Niet beschikbaar"></a>
+      </div>
+  <% }); %>
+</section>
+
+<% include footer %>

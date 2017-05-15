@@ -1,0 +1,48 @@
+body {
+  background-color: #f2f2f2;
+}
+
+.instagram {
+  width: 100%;
+  box-sizing: border-box;
+  overflow: auto;
+  padding: 30px;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 50%;
+  float: left;
+  padding: 30px;
+}
+
+img, a {
+  width: 100%;
+}
+
+h1 {
+  font-size: 3em;
+  padding: 30px;
+  text-align: center;
+}
+
+
+@media (min-width: 1300px) {
+  .instagram {
+    width: 1300px;
+    margin : 0 auto;
+    display: block;
+  }
+}
+
+@media (min-width: 1000px) {
+  .container {
+    width: 33.3%;
+  }
+}
+
+@media (max-width: 768px) {
+  .container {
+    width: 100%;
+  }
+}
